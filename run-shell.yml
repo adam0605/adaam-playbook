@@ -1,0 +1,5 @@
+- name: Run hello-world.sh
+  hosts: all
+  tasks:
+    - name: Hello Script
+      script: /hello-world.sh
