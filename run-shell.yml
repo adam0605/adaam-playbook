@@ -1,5 +1,12 @@
 - name: Run hello-world.sh
   hosts: all
   tasks:
+    - name: copy script
+      copy:
+        src: hello-world.sh
+        dest: /tmp/hello-world.sh
+        owner: adam
+        group: adam
+        mode: '0777'
     - name: Hello Script
-      script: /hello-world.sh
+      script: /tmp/hello-world.sh
