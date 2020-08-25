@@ -2,7 +2,7 @@
   hosts: localhost
   gather_facts: no
   vars:
-    zone: "us-central1-a"`
+    zone: "us-central1-a"
     region: "us-central1"
 
   tasks:
