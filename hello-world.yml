@@ -1,3 +1,2 @@
-- hosts: hello
-  roles:
+- roles:
     - role: hello
